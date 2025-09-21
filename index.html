@@ -312,12 +312,26 @@
   </section>
 
   <!-- Suggestion -->
-  <section id="suggestion" data-aos="fade-up">
-    <h2>Suggestion Box</h2>
-    <div class="suggestion">
-      <iframe src="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true"></iframe>
-    </div>
-  </section>
+<section id="suggestion" data-aos="fade-up">
+  <h2>Suggestion Box</h2>
+  <div class="suggestion">
+    <form action="https://formspree.io/f/mnngaade" method="POST">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+
+      <label for="message">Your Suggestion:</label><br>
+      <textarea id="message" name="message" rows="4" placeholder="Type your suggestion here..." required></textarea><br><br>
+
+      <button type="submit" style="padding:10px 20px; background-color:green; color:white; border:none; cursor:pointer;">
+        Send
+      </button>
+    </form>
+  </div>
+</section>
+
 
   <!-- Footer -->
   <footer data-aos="fade-up">
