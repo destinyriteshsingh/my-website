@@ -299,39 +299,55 @@
     <p>Handwritten notes upload section.</p>
   </section>
 
-  <!-- Lab -->
-<section id="lab" data-aos="zoom-in">
+ <!-- Lab -->
+<section id="lab" data-aos="zoom-in" style="text-align:center; padding:40px 20px;">
   <h2>Lab</h2>
   <p>Lab details and schedules.</p>
 
-  <div class="labs" style="display:flex; gap:20px; flex-wrap:wrap;">
+  <div class="labs" style="display:flex; justify-content:center; gap:20px; flex-wrap:wrap; margin-top:20px;">
 
     <!-- Chemistry Lab -->
     <div class="lab-item" style="border:1px solid #ccc; padding:15px; border-radius:10px; width:250px; text-align:center;">
       <h3>Chemistry Lab</h3>
       <p>Virtual Chemistry experiments and simulations.</p>
-      <a href="https://ce-iitb.vlabs.ac.in/Introduction.html" target="_blank" 
-         style="color:white; background-color:green; padding:8px 15px; border-radius:5px; text-decoration:none;">Visit Lab</a>
+      <a href="https://ce-iitb.vlabs.ac.in/Introduction.html" target="_blank" class="lab-btn">Visit Lab</a>
     </div>
 
     <!-- Basic Electronics Lab -->
     <div class="lab-item" style="border:1px solid #ccc; padding:15px; border-radius:10px; width:250px; text-align:center;">
       <h3>Basic Electronics Lab</h3>
       <p>Experiments on circuits and electronics.</p>
-      <a href="https://be-iitkgp.vlabs.ac.in/" target="_blank" 
-         style="color:white; background-color:green; padding:8px 15px; border-radius:5px; text-decoration:none;">Visit Lab</a>
+      <a href="https://be-iitkgp.vlabs.ac.in/" target="_blank" class="lab-btn">Visit Lab</a>
     </div>
 
     <!-- Physics Lab -->
     <div class="lab-item" style="border:1px solid #ccc; padding:15px; border-radius:10px; width:250px; text-align:center;">
       <h3>Physics Lab</h3>
       <p>Experiments on mechanics, optics, and electronics.</p>
-      <a href="https://bop-iitk.vlabs.ac.in/" target="_blank" 
-         style="color:white; background-color:green; padding:8px 15px; border-radius:5px; text-decoration:none;">Visit Lab</a>
+      <a href="https://bop-iitk.vlabs.ac.in/" target="_blank" class="lab-btn">Visit Lab</a>
     </div>
 
   </div>
 </section>
+
+<!-- CSS for glowing blue buttons -->
+<style>
+  .lab-btn {
+    display:inline-block;
+    padding:8px 15px;
+    border-radius:5px;
+    background-color:blue;
+    color:white;
+    text-decoration:none;
+    box-shadow: 0 0 10px blue;
+    transition: 0.3s;
+  }
+
+  .lab-btn:hover {
+    box-shadow: 0 0 20px #00f, 0 0 30px #00f;
+    transform: scale(1.05);
+  }
+</style>
 
   <!-- Groups -->
   <section id="groups" data-aos="fade-down">
